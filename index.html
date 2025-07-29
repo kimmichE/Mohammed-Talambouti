@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+  <meta name="description" content="Développeur web passionné, je conçois des sites modernes, rapides et responsives, avec une expérience utilisateur soignée et un design unique. Transformons vos idées en solutions digitales innovantes.">
+
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Mohammed Talambouti">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <title>M.Talambouti</title>
+ <link rel="stylesheet" href="style.css" >
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">M.Talambouti</div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="navbar">
+            <a href="#accueil">Accueil</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#social">Social Media</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="accueil">
+        <div class="hero-left">
+            <h1>Bonjour, je suis <span>Développeur Web</span></h1>
+            <p>Je crée des expériences numériques modernes, élégantes et performantes.</p>
+            <button>Voir mes projets</button>
+        </div>
+        <div class="hero-right">
+            <img src="IMG_20240516_080624_073.jpg" alt="Développeur Web">
+        </div>
+    </section> 
+
+
+
+ <section class="about-me" id="about">
+  <div class="about-container">
+    <h2 class="title" style="color:#00FFE7 ;"> <span style="color: white;">About</span> Me</h2>
+
+    <div class="about-content">
+      <div class="about-left">
+        <h3 class="subtitle">
+          I'm <span class="highlight">Mohammed Talambouti</span>, Front-End Developer
+        </h3>
+        <p style="color: white;">
+          <strong>Mohammed Talambouti</strong> est un passionné de design web et de développement front-end. Il aime donner vie aux idées à travers des interfaces élégantes, performantes et accessibles.
+        </p>
+        <p style="color: white;">
+          Mon objectif est de créer des expériences digitales captivantes en combinant créativité, technologie et empathie utilisateur.
+        </p>
+      </div>
+
+      <div class="about-right">
+        <div class="info-item">
+          <span class="info-label">📧 Email:</span>
+          <span class="info-value">mohammedtalambouti@gmail.com</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">📍 Lieu:</span>
+          <span class="info-value">Maroc</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <script>
+        function toggleMenu() {
+            const navbar = document.getElementById('navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+     <body class="bg-black text-white font-sans" >
+
+  <section class="p-6 max-w-6xl mx-auto" id="my skills">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">
+      My <span class="text-cyan-400" style="color: #00FFE7;">Skills</span>
+    </h2>
+
+    <!-- Skills Grid -->
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <!-- Technical Skills -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+        <h3 class="text-xl font-bold text-cyan-400 mb-4 text-center" style="color: #ffffff;">TECHNICAL SKILLS</h3>
+        
+        <div class="mb-4">
+          <p >HTML</p>
+          <div class="w-full bg-gray-700 h-3 rounded-full">
+            <div class="bg-cyan-400 h-3 rounded-full"  style="background: #00FFE7; width: 72%"></div>
+          </div>
+          <p class="text-right text-sm" >72%</p>
+          
+        </div>
+
+        <div class="mb-4">
+          <p >Figma</p>
+          <div class="w-full bg-gray-700 h-3 rounded-full">
+            <div class="bg-cyan-400 h-3 rounded-full"  style="background: #00FFE7; width: 90%"></div>
+          </div>
+          <p class="text-right text-sm" >90%</p>
+        </div>
+
+        <div class="mb-4">
+          <p >JavaScript</p>
+          <div class="w-full bg-gray-700 h-3 rounded-full">
+            <div class="bg-cyan-400 h-3 rounded-full"  style="background: #00FFE7; width: 80%"></div>
+          </div>
+          <p class="text-right text-sm" >80%</p>
+        </div>
+
+        <div class="mb-2" >
+          <p>CSS</p>
+          <div class="w-full bg-gray-700 h-3 rounded-full">
+            <div class="bg-cyan-400 h-3 rounded-full " style="background: #00FFE7; width: 62%"></div>
+          </div>
+          <p class="text-right text-sm" >62%</p>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="grid grid-cols-2 sm:grid-cols-2 gap-4">
+        <div class="bg-gray-900 p-4 rounded-lg text-center">
+          <div class="relative w-20 h-20 mx-auto mb-2">
+            <svg class="absolute top-0 left-0 w-full h-full" viewBox="0 0 36 36">
+              <path fill="none" stroke="#0ff" stroke-width="4" d="M18 2.0845 a 15.9155 15.9155 0 1 1 0 31.831"></path>
+              <path fill="none" stroke="#111" stroke-width="4" stroke-dasharray="90, 100" d="M18 2.0845 a 15.9155 15.9155 0 1 1 0 31.831"></path>
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center font-bold text-cyan-400" style="color: #00FFE7; ">90%</div>
+          </div>
+          <p>Team Work</p>
+        </div>
+
+        <div class="bg-gray-900 p-4 rounded-lg text-center">
+          <div class="relative w-20 h-20 mx-auto mb-2">
+            <svg class="absolute top-0 left-0 w-full h-full" viewBox="0 0 36 36">
+              <path fill="none" stroke="#0ff" stroke-width="4" d="M18 2.0845 a 15.9155 15.9155 0 1 1 0 31.831"></path>
+              <path fill="none" stroke="#111" stroke-width="4" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 1 1 0 31.831"></path>
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center font-bold text-cyan-400" style="color: #00FFE7;" >80%</div>
+          </div>
+          <p>Creativity</p>
+        </div>
+
+        <div class="bg-gray-900 p-4 rounded-lg text-center">
+          <div class="relative w-20 h-20 mx-auto mb-2">
+            <svg class="absolute top-0 left-0 w-full h-full" viewBox="0 0 36 36">
+              <path fill="none" stroke="#0ff" stroke-width="4" d="M18 2.0845 a 15.9155 15.9155 0 1 1 0 31.831"></path>
+              <path fill="none" stroke="#111" stroke-width="4" stroke-dasharray="55, 100" d="M18 2.0845 a 15.9155 15.9155 0 1 1 0 31.831"></path>
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center font-bold text-cyan-400" style="color: #00FFE7;">75%</div>
+          </div>
+          <p>Project Management</p>
+        </div>
+
+        <div class="bg-gray-900 p-4 rounded-lg text-center">
+          <div class="relative w-20 h-20 mx-auto mb-2">
+            <svg class="absolute top-0 left-0 w-full h-full" viewBox="0 0 36 36">
+              <path fill="none" stroke="#0ff" stroke-width="4" d="M18 2.0845 a 15.9155 15.9155 0 1 1 0 31.831"></path>
+              <path fill="none" stroke="#111" stroke-width="4" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 1 1 0 31.831"></path>
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center font-bold text-cyan-400" style="color: #00FFE7;">70%</div>
+          </div>
+          <p>Communication</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="projects" id="project">
+  <h2><i class="fa-brands fa-github"></i> Mes <span>Projets</span></h2>
+  <div class="project-container">
+    <div class="project-card">
+      <img src="Capture d'écran 2025-07-29 113848.png" alt="Projet 1">
+      <h3>Site Vitrine</h3>
+      <p>Un site moderne pour une entreprise locale.</p>
+      <a href="https://kimmiche.github.io/Le-Gourmet/" class="btn"  target="_blank">Voir Projet</a>
+    </div>
+
+    <div class="project-card">
+      <img src="Capture d'écran 2025-07-29 113908.png" alt="Projet 2">
+      <h3>App Todo</h3>
+      <p>Gérez vos tâches avec HTML, CSS et JS.</p>
+      <a href="https://kimmiche.github.io/youssef/" class="btn"  target="_blank">Voir Projet</a>
+    </div>
+
+    <div class="project-card">
+      <img src="Capture d'écran 2025-07-29 113924.png" alt="Projet 3">
+      <h3>Portfolio</h3>
+      <p>Un site personnel avec animations et responsive design.</p>
+      <a href="https://kimmiche.github.io/Cafe-Aroma/" class="btn"  target="_blank">Voir Projet</a>
+    </div>
+
+    
+
+    
+
+    
+  </div>
+</section>
+
+
+<section class="services" id="services">
+  <h2><i class="fa-solid fa-briefcase"></i> Mes <span>Services</span></h2>
+  <div class="service-container">
+    <div class="service-card">
+      <i class="fa-solid fa-code"></i>
+      <h3>Développement Web</h3>
+      <p>Création de sites web modernes, responsives et performants.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="fa-solid fa-paintbrush"></i>
+      <h3>Design UI/UX</h3>
+      <p>Interfaces propres, centrées utilisateur, avec une bonne expérience visuelle.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="fa-solid fa-mobile-screen"></i>
+      <h3>Responsive Design</h3>
+      <p>Adaptation parfaite sur tous les écrans : mobile, tablette et desktop.</p>
+    </div>
+  </div>
+</section>
+
+
+ <section class="contact-section" id="contact">
+    <div class="contact-container">
+      
+      <!-- Partie gauche : image + texte -->
+      <div class="contact-left">
+        <img src="OIP.webp" alt="Aide" />
+        <h2>Besoin de développer un projet ?</h2>
+        <p>Nous sommes disponibles pour répondre à vos besoins. Remplissez le formulaire et envoyez-nous votre demande !</p>
+      </div>
+      
+      <!-- Partie droite : formulaire -->
+      <div class="contact-right">
+        <form onsubmit="return envoyerMail();">
+          <input type="text" id="name" placeholder="Votre nom" required />
+          <input type="email" id="email" placeholder="Votre email" required />
+          <textarea id="message" rows="6" placeholder="Votre message" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer id="Social Media">
+  <div class="footer-container">
+    
+    <!-- Partie 1: Nom et Remerciements -->
+    <div class="footer-left">
+      <h3>Mohamed Talambouti</h3>
+      <p style="padding-top: 10PX;">Welcome to my Portfolio! ❤️ I'm glad you're interested in getting in touch with me.<br><br>
+
+If you have any questions, comments, or just want to say hello, you can use the contact form above.</p>
+    </div>
+    
+    <!-- Partie 2: Quick Links -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+      <li><a href="#accueil" class="nav-link">Accueil</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#my skills" class="nav-link">Skills</a></li>
+      <li><a href="#project" class="nav-link">Project</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><a href="#Social Media" class="nav-link">Social Media</a></li>
+    </ul>
+    </div>
+    
+    <!-- Partie 3: Social Media -->
+    <div class="footer-social">
+      <h3>Follow Me</h3>
+      <div class="social-icons">
+         
+<a href="https://web.facebook.com/mohamed.talambouti.520" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+<a href=" https://github.com/kimmichE"  target="_blank"> <i class="fa-brands fa-github"></i></a>
+<a href="  https://www.instagram.com/mohamed.talam/?__pwa=1"  target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+ <a href="https://wa.me/+2120635395028"  target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+<a href="https://www.linkedin.com/in/mohammed-talambouti-1152a1370?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+
+
+
+    </div>
+    
+  </div>
+</footer>
+  <button id="scrollButton" class="scroll-btn" onclick="toggleScroll()">⬇️</button>
+
+  <!-- Liaison du fichier JS -->
+  <script src="jv.js"></script>
+
+  <script>
+    function envoyerMail() {
+      const nom = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      const destinataire = "ton.email@exemple.com"; // ← Remplace par ton vrai email
+
+      const sujet = encodeURIComponent("Demande de contact");
+      const corps = encodeURIComponent(
+        `Nom : ${nom}\nEmail : ${email}\n\nMessage :\n${message}`
+      );
+
+      const mailtoLink = `mailto:${destinataire}?subject=${sujet}&body=${corps}`;
+      window.location.href = mailtoLink;
+
+      return false; // Empêche le rechargement de la page
+    }
+  </script>
+
+
+</body>
+</html>
