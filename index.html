@@ -342,5 +342,34 @@ If you have any questions, comments, or just want to say hello, you can use the 
   </script>
 
 
+
+     <button id="scrollTopBtn">↑</button>
+
+
+ <script>
+    const btn = document.getElementById("scrollTopBtn");
+
+    // إظهار الزر عند التمرير للأسفل
+    window.onscroll = function () {
+      if (window.scrollY > 100) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    };
+
+    // عند الضغط يطلع لأعلى
+    btn.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+
+   
+
+   
 </body>
 </html>
+
