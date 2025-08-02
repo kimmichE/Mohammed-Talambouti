@@ -861,7 +861,7 @@ footer {
       background-color: #00ffe7;
       color: white;
       border: none;
-      font-size: 18px; /* أصغر شويّة */
+      font-size: 26px; /* أصغر شويّة */
       display: none;
       cursor: pointer;
       border-radius: 8px;
@@ -876,5 +876,6 @@ footer {
         font-size: 16px;
       }
     }
+
 
 
