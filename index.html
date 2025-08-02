@@ -342,14 +342,12 @@ If you have any questions, comments, or just want to say hello, you can use the 
   </script>
 
 
+ <button id="scrollTopBtn">↑</button>
 
-     <button id="scrollTopBtn">↑</button>
-
-
- <script>
+  <script>
     const btn = document.getElementById("scrollTopBtn");
 
-    // إظهار الزر عند التمرير للأسفل
+    // إظهار الزر عند النزول في الصفحة
     window.onscroll = function () {
       if (window.scrollY > 100) {
         btn.style.display = "block";
@@ -358,7 +356,7 @@ If you have any questions, comments, or just want to say hello, you can use the 
       }
     };
 
-    // عند الضغط يطلع لأعلى
+    // عند الضغط يطلع لأعلى الصفحة
     btn.addEventListener("click", function () {
       window.scrollTo({
         top: 0,
@@ -372,4 +370,5 @@ If you have any questions, comments, or just want to say hello, you can use the 
    
 </body>
 </html>
+
 
