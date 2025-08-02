@@ -858,7 +858,7 @@ footer {
       right: 15px;
       width: 42px;
       height: 42px;
-      background-color: #2ee59d;
+      background-color: #00ffe7;
       color: white;
       border: none;
       font-size: 18px; /* أصغر شويّة */
@@ -876,4 +876,5 @@ footer {
         font-size: 16px;
       }
     }
+
 
