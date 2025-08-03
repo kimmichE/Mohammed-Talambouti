@@ -44,7 +44,20 @@
             <img src="IMG_20240516_080624_073.jpg" alt="Développeur Web">
         </div>
     </section> 
+<script>
+function toggleMenu() {
+  const nav = document.getElementById('navbar');
+  nav.classList.toggle('active');
+}
 
+// اجعل القائمة تختفي عند الضغط على أي رابط
+document.querySelectorAll('#navbar a').forEach(link => {
+  link.addEventListener('click', () => {
+    const nav = document.getElementById('navbar');
+    nav.classList.remove('active');
+  });
+});
+</script>
 
 
  <section class="about-me" id="about">
@@ -370,6 +383,7 @@ If you have any questions, comments, or just want to say hello, you can use the 
    
 </body>
 </html>
+
 
 
 
